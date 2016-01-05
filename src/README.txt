@@ -10,9 +10,13 @@ GeoServer needs a Java SDK, maven (version 3 is recommended) and git.
 While compiling GeoServer with OpenJDK 8 works, Oracle's JDK 8 is still the recommendation.
 Under Debian/Ubuntu simply run:
 
-sudo apt-get install sun-java7-jdk maven git
+    sudo add-apt-repository ppa:webupd8team/java -y
+    sudo apt-get update
+    sudo apt-get install oracle-java8-installer maven git
 or
-sudo aptitude install sun-java7-jdk maven git
+    sudo add-apt-repository ppa:webupd8team/java -y
+    sudo aptitude update
+    sudo aptitude install oracle-java8-installer maven git
 
 == Windows ==
 
